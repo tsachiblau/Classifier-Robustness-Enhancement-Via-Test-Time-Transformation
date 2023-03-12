@@ -9,10 +9,10 @@ This repo contains the official implementation for the paper [Classifier-Robustn
 ## Preparting the code
 In order to run the code you need to:
 
-1. Install necassary packages
+1. Install necessary packages
 2. Download checkpoints and locate them under /models
 
-### Necassary packages
+### Necessary packages
 lpips
 matplotlib
 AutoAttack
@@ -34,11 +34,11 @@ Gowal et al.   [4]    Link: https://github.com/deepmind/deepmind-research/tree/m
 ## Running Experiments
 To evaluate different defenses you should:
 
-1. Run auto attack on the base classfifier, and save it the attack localy 
-2. Evaluate the model using different defenses
+1. Run AutoAttack on the base classifier, and save the attacked images locally.
+2. Evaluate the model using different defenses.
 
 ### Run AutoAttack
-Run the following command, the attacked images is saved in under /data/.../*.pt
+Run the following command, the attacked images are saved in under /data/.../*.pt
 
 python main.py  --flow create_aa
                 --net_name [at, rebuffi, gowal]
