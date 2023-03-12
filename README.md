@@ -3,7 +3,7 @@
 This repo contains the official implementation for the paper [Classifier-Robustness-Enhancement-Via-Test-Time-Transformation] (TODO) by Tsachi Blau, Roy Ganz, Chaim Baskin, Michael Elad and Alex Bronstein. 
 
 
-![alt text](relative%20method.png?raw=true "Title")
+![alt text](https://github.com/tsachiblau/Classifier-Robustness-Enhancement-Via-Test-Time-Transformation/blob/main/method.png)
 
 
 ## Preparting the code
